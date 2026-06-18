@@ -2,7 +2,7 @@
 
 Agentic RAG over Lilian Weng's blog posts, built with LangChain + LangGraph.
 
-Converted from [`agentic_rag_framework.ipynb`](../agentic_rag_framework.ipynb). Instead of bound LangChain tools, agents emit a plain-text `THOUGHT` / `ACTION` / `ARGUMENTS` / `ANSWER` protocol that a single generic `call_tool` step parses and dispatches against a per-agent allow-list (`AGENT_TOOL_LIST`) — hence "generalized actions".
+Instead of bound LangChain tools, agents emit a plain-text `THOUGHT` / `ACTION` / `ARGUMENTS` / `ANSWER` protocol that a single generic `call_tool` step parses and dispatches against a per-agent allow-list (`AGENT_TOOL_LIST`) — hence "generalized actions".
 
 ## Layout
 
